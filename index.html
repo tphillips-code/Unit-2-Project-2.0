@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title></title>
+        <title>Tanner Phillips's Portfolio</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
@@ -9,15 +9,17 @@
     </head>
     <body>
         <header id="main-header">
-            <h1>Tanner Phillips</h1>
-            <nav class="main-nav">
-                <ul class="flex-list">
-                    <a href="#"><h3 class="nav-item">Home</h3></a>
-                    <a href="#"><h3 class="nav-item">Portfolio</h3></a>
-                    <a href="#"><h3 class="nav-item">Skills</h3></a>
-                    <a href="#"><h3 class="nav-item">Contact</h3></a>
-                </ul>
-            </nav>
+            <div class="nav-bar">
+                <h1 id="home">Tanner Phillips</h1>
+                <nav class="main-nav">
+                    <ul class="flex-list">
+                        <li><a href="#home"><h3 class="nav-item">Home</h3></a></li>
+                        <li><a href="#portfolio"><h3 class="nav-item">Portfolio</h3></a></li>
+                        <li><a href="#skills"><h3 class="nav-item">Skills</h3></a></li>
+                        <li><a href="#contact"><h3 class="nav-item">Contact</h3></a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="header-card">
                 <img src="images/responsive-layout-profile.png" alt="Picture representing Tanner Phillips" class="profile-pic">
                 <p class="intro">Hi! I'm a front end developer who loves responsive design and css.
@@ -25,7 +27,7 @@
             </div>
         </header>
         <main>
-            <h3 id="portfolio-title">Portfolio</h3>
+            <h3 id="portfolio">Portfolio</h3>
             <section class="wrapper">
                 <div class="flex-item">
                     <img src="images/portfolio-1.png" alt="Picture of marketing page project" class="portfolio-pic">
@@ -57,7 +59,7 @@
                     <h2>Calculator</h2>
                     <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
                 </div>
-                <section class="skills">
+                <section id="skills">
                     <h2>Skills</h2>
                     <p>I have many skills in web development including HTML, CSS, and JavaScript.<br> I have also worked with many different 
                        text editors and frameworks, and am always working to learn more!</p>
@@ -65,7 +67,7 @@
             </section>
         </main>
         <footer>
-            <div class="contact">
+            <div id="contact">
                 <h4>Contact</h4>
                 <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
                 <p>Phone +1 (111) 555-1234</p>
@@ -79,10 +81,10 @@
             <div class="page-bottom-2">
                 <h4>Tanner Phillips</h4>
                 <ul class="footer-list">
-                    <a href="#" class="footer-link"><h4>Home</h4></a>
-                    <a href="#" class="footer-link"><h4>Portfolio</h4></a>
-                    <a href="#" class="footer-link"><h4>Skills</h4></a>
-                    <a href="#" class="footer-link"><h4>Contact</h4></a>
+                    <li><a href="#home" class="footer-link"><h4>Home</h4></a></li>
+                    <li><a href="#portfolio" class="footer-link"><h4>Portfolio</h4></a></li>
+                    <li><a href="#skills" class="footer-link"><h4>Skills</h4></a></li>
+                    <li><a href="#contact" class="footer-link"><h4>Contact</h4></a></li>
                 </ul>
             </div>
         </footer>
